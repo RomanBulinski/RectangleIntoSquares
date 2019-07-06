@@ -4,11 +4,9 @@ import java.util.List;
 public class Main {
 
 
-    public static List<Integer> sqInRect(int lng, int wdth) {
+    public static List<Integer> sqInRect(int tempL, int tempW) {
 
         List<Integer> result = new ArrayList<Integer>();
-        int tempL = lng;
-        int tempW = wdth;
 
         if (tempL == tempW)
             return null;
